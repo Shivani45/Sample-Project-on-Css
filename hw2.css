@@ -1,0 +1,51 @@
+table{
+    text-align: center;
+    margin:0 auto;
+    background-color: silver;
+    box-sizing: border-box;
+  
+    line-height:30px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+}
+td:first-child{
+text-align: left;
+
+}
+th:first-child{
+    text-align: left;
+    
+    
+
+}
+td{
+    
+    width:max-content;
+    opacity:0.7;
+
+
+    background-color:lightsalmon;
+   
+}
+td:hover{
+    opacity:1;
+    font-weight:bold;
+    
+    
+}
+th{ 
+    border:2px solid red;
+    background-color: brown;
+    border-right:1px solid lightpink;
+    border-left:none;
+    font-size:20px;
+    font-weight: normal;
+    color:white;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+    
+
+}
+
